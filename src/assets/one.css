@@ -1,0 +1,62 @@
+* {
+  font-family: Segoe UI, -apple-system, Sans-Serif;
+  color: rgb(50,50,50);
+  transition-duration: 0.4s;
+}
+
+@media only screen and (min-width: 1000px) {
+  body {
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+  }
+  .Footer, .Sep {
+    margin-left: -100px !important;
+    margin-right: -100px !important;
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+body {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+body::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.Center {
+  text-align: center;
+}
+
+.AbitThick {
+  font-weight: 700
+}
+
+.StandardBlack {
+  color: rgb(50,50,50)
+}
+
+.SubStandardBlack {
+  color: rgb(80,80,80);
+}
+
+.Reveal {
+    position: relative;
+    transform: translateY(75px);
+    opacity: 0;
+    transition: 0.8s all ease;
+}
+
+.Reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.BecomeBigger:hover {
+  scale: 1.1;
+}

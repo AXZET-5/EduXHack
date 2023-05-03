@@ -1,5 +1,5 @@
 <template>
-  <div class="RegistrationParent" id="signup">
+  <div class="RegistrationParent">
     <a class="RegistrationChild BecomeBigger Reveal" href="https://docs.google.com/forms/d/e/1FAIpQLSeg5M6X7YvTHgz2_iWL71TtV24U01zJvY69PMHj8paSTyrC2g/viewform" target="_blank">
       <p class="Center Title iRC1">APPLY</p>
       <p class="Center Await iRC1">TO LEARN</p>
@@ -26,30 +26,55 @@
     .RegistrationParent {
       grid-template-columns: 1fr;
     }
+    .RegistrationChild {
+      border-radius: 40px !important;
+      margin: 20px !important;
+    }
   }
 
   .RegistrationChild {
-    background-color: #d1fffd;
+    background-color: #3D7DF5;
     margin: 20px;
+    margin-left: 50px;
+    margin-right: 25px;
     text-decoration: none;
-    border-radius: 20px;
-    border: 5px solid #c2e4ff;
+    border-radius: 0px 40px 0px 40px;
+    border: 15px double white;
+    animation: pulse 3s infinite;
+  }
+
+  @keyframes pulse {
+  	0% {
+  		transform: scale(0.95);
+  		box-shadow: 0 0 0 0 rgba(255,255,255, 1);
+  	}
+  
+  	70% {
+  		transform: scale(1);
+  		box-shadow: 0 0 0 20px rgba(255,255,255, 0);
+  	}
+  
+  	100% {
+  		transform: scale(0.95);
+  		box-shadow: 0 0 0 0 rgba(255,255,255, 0);
+  	}
   }
 
   .RC2 {
-    background-color: #fff7d1;
-    border: 5px solid #ffeea8;
+    margin-left: 25px;
+    margin-right: 50px;
+    border-radius: 40px 0px 40px 0px;
   }
 
   .RegistrationChild:hover {
-    background-color: rgb(50,50,50);
+    background-color: white;
   }
 
   .RegistrationChild:hover .iRC1 {
-    color: #d1fffd;
+    color: #020914;
   }
   
   .RC2:hover .iRC2 {
-    color: #fff7d1;
+    color: #020914;
   }
 </style>

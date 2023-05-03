@@ -2,7 +2,7 @@
   <div class="Container Opener Reveal">
     <div class="OpenerGrid" v-on:click=openSesame>
       <p class="Title">Frequently Asked Questions</p>
-      <img class="TinyIcon" src="/src/images/Open.svg">
+      <img class="TinyIcon" src="/src/images/Open.svg" id="toFlip">
     </div>
     <div id="toOpen">
       <p class="Question">What is a hackathon?</p>
@@ -20,10 +20,6 @@
       <p class="Question">Where is the event?</p>
       <div class="LilBoxThingy">&nbsp</div>
       <p class="Answer">The event is being hosted at TBC.</p>
-      <br>
-      <p class="Question">Is there a code of conduct?</p>
-      <div class="LilBoxThingy">&nbsp</div>
-      <p class="Answer">Yes there is. We enforce it very strongly. <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank">You can find it here.</a></p>
     </div>
   </div>
 </template>
@@ -62,6 +58,7 @@
     margin-bottom: auto;
     margin-left: auto;
     width: 50px;
+    filter: invert(1);
   }
 
   #toOpen {
@@ -72,8 +69,16 @@
     display: initial;
   }
 
+  #toFlip {
+    transform: rotate(0deg);
+  }
+
+  #toFlip.active {
+    transform: rotate(180deg);
+  }
+
   .LilBoxThingy {
-    background-color: rgb(50,50,50);
+    background-color: #3D7DF5;
     font-size: 10px;
     display: inline-block;
     width: 100px;
@@ -94,8 +99,10 @@
      methods: {
        openSesame(){
          var toOpen = document.getElementById('toOpen')
+         var toFlip = document.getElementById('toFlip')
          
          toOpen.classList.toggle('active')
+         toFlip.classList.toggle('active')
        }
      }
    }

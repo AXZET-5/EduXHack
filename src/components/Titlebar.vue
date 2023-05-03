@@ -9,7 +9,7 @@
 
   <div class="Menu" id="hamburgerMenu">
     <br><br>
-    <a class="MenuButton" href="#home">Home</a>
+    <a class="MenuButton" href="#top">Home</a>
     <br><br>
     <a class="MenuButton" href="#signup">Register</a>
     <br><br>
@@ -21,7 +21,7 @@
 
 <style>
   .TitleBarAligner {
-      height: 70px;
+      height: 85px;
   }
   
   .Titlebar {
@@ -29,11 +29,13 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgb(50,50,50);
+    background-color: #020914;
     z-index: 999;
     padding: 10px;
     padding-left: 40px;
     padding-right: 40px;
+    border-bottom: 3px solid white;
+    box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.5);
   }
 
   .TB {
@@ -43,7 +45,7 @@
 
   .BarGrid {
     display: grid;
-    grid-template-columns: auto min-content;
+    grid-template-columns: auto 100px;
   }
 
   .HamburgerIcon {
@@ -51,7 +53,6 @@
     filter: invert(100%);
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: auto;
   }
 
   .HamburgerIcon:hover {
@@ -65,7 +66,9 @@
     z-index: 998;
     display: inline;
 
-    background-color: rgb(50,50,50);
+    background-color: #020914;
+    border-left: 3px solid white;
+    border-bottom: 3px solid white;
 
     padding: 30px;
     border-radius: 0px 0px 0px 20px;

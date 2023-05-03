@@ -37,8 +37,7 @@
   .InsideImage {
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    max-width: 150px;
+    width: 80%;
     display: none;
   }
 

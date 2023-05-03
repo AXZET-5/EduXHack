@@ -1,12 +1,15 @@
 <template>
-  <br>
-  <div class="Sep Reveal">&nbsp</div>
-  <br>
+  <div>
+    <br>
+    <div class="Sep"></div>
+    <br>
+  </div>
 </template>
 
 <style scoped>
   .Sep {
-    background-color: rgb(100,100,100);
-    font-size: 5px;
+    background-color: rgb(255,255,255);
+    height: 3px;
+    width: 100%;
   }
 </style>

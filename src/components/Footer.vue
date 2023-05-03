@@ -17,11 +17,11 @@
     <div class="ColumnFooter">
       <div style="padding-right: 20px">
       <p class="Bold ColumnHeader">Email</p>
-      <p class="Content">Address: renjie@renjie.com</p>
+      <a class="Content" target="_blank" href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=eduxhackhttpsociety@gmail.com">Gmail Compose</a>
       </div>
       <div>
-      <p class="Bold ColumnHeader">WhatsApp</p>
-      <p class="Content">HP No.: +rj renjierenjiefunnirenjie</p>
+      <p class="Bold ColumnHeader">Instagram</p>
+      <a class="Content" target="_blank" href="https://www.instagram.com/eduxhack_2023/">@eduxhack_2023</a>
       </div>
     </div>
   </div>
@@ -42,7 +42,6 @@
   }
   
   .Footer {
-    background-color: rgb(50,50,50);
     padding-top: 35px;
     padding-bottom: 35px;
     width: 100%;

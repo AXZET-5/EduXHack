@@ -1,24 +1,24 @@
 <template>
   <div class="Reveal Container">
     <div class="Titlegrid">
-      <img class="Titleimage WithBorder BecomeBigger" src="/src/images/IRS.png">
+      <img class="Titleimage WithBorder" src="/src/images/IRSGlow.png">
       <div>
-        <p class="Center BigTitle BecomeBigger">EDUXHACK</p>
-        <p class="Center Subtitle BecomeBigger">EduXHack is a hackathon that aims to bring together students with diverse backgrounds and skill sets to brainstorm, design and develop innovative solutions to challenges in education</p>
-        <p class="Center Await BecomeBigger">COMING THIS JUNE</p>
+        <p class="Center BigTitle">EDUXHACK</p>
+        <p class="Center Subtitle">EduXHack is a hackathon that aims to bring together students with diverse backgrounds and skill sets to brainstorm, design and develop innovative solutions to challenges in education</p>
+        <p class="Center Await">COMING THIS JUNE</p>
       </div>
-      <img class="Titleimage BecomeBigger" src="/src/images/EH.jpg">
+      <img class="Titleimage WithBorder" src="/src/images/EH.png">
     </div>
     <div class="Titlegrid2">
       <div class="Imagegrid">
-        <img class="Titleimage2 WithBorder BecomeBigger" src="/src/images/IRS.png">
-        <img class="Titleimage2 BecomeBigger" src="/src/images/x.svg">
-        <img class="Titleimage2 BecomeBigger" src="/src/images/EH.jpg">
+        <img class="Titleimage2 WithBorder" src="/src/images/IRSGlow.png">
+        <img class="Titleimage2 Cross" src="/src/images/x.svg">
+        <img class="Titleimage2 WithBorder" src="/src/images/EH.png">
       </div>
       <div>
-        <p class="Center Title BecomeBigger">EDUXHACK</p>
-        <p class="Center Subtitle BecomeBigger">EduXHack is a hackathon that aims to bring together students with diverse backgrounds and skill sets to brainstorm, design and develop innovative solutions to challenges in education</p>
-        <p class="Center Await BecomeBigger">COMING THIS JUNE</p>
+        <p class="Center Title">EDUXHACK</p>
+        <p class="Center Subtitle">EduXHack is a hackathon that aims to bring together students with diverse backgrounds and skill sets to brainstorm, design and develop innovative solutions to challenges in education</p>
+        <p class="Center Await">COMING THIS JUNE</p>
       </div>
     </div>
   </div>
@@ -26,10 +26,11 @@
 
 <style>
   .Container {
-    background-color: rgb(235,235,235);
+    background-color: rgba(23, 45, 92, 0.65);
     border-radius: 40px;
     margin: 20px;
     padding: 20px;
+    border: 5px solid #3D7DF5;
   }
 
   .Titlegrid {
@@ -67,13 +68,13 @@
   .Subtitle {
     font-size: 20px;
     font-weight: 600;
-    color: rgb(120,120,120);
+    color: rgba(225, 242, 250, 1);
   }
 
   .Await {
     font-size: 30px;
     letter-spacing: 3px;
-    color: rgb(120,120,120);
+    color: rgba(225, 242, 250, 1);
   }
 
   .Titleimage {
@@ -81,6 +82,7 @@
     width: 100%;
     margin-top: auto;
     margin-bottom: auto;
+    animation: pulse 3s infinite;
   }
 
   .Titleimage2 {
@@ -88,6 +90,12 @@
     width: 80%;
     max-width: 200px;
     margin: auto;
+    animation: pulse 3s infinite;
+  }
+
+  .Cross {
+    filter: invert(1);
+    animation: none;
   }
 
   .Imagegrid {
@@ -96,6 +104,6 @@
   }
 
   .WithBorder {
-    border: 5px solid rgb(100,100,100);
+    border: 3px solid white;
   }
 </style>

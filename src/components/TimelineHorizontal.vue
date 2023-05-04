@@ -67,5 +67,8 @@
         width: 100% !important;
         background-color: rgba(0,0,0,0);
         border: none;
+
+        margin-left: 10px;
+        margin-right: 10px;
     }
 </style>

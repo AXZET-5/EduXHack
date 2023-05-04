@@ -2,7 +2,7 @@
     <p class="Center Title Reveal">General Timeline</p>
     <div class="TimelineGrid">
         <div>
-            <div class="Specialised Container Reveal">
+            <div class="Specialised Reveal">
                 <br>
                 <text class="Title">Signups&nbspopen!</text>
                 <p class="Subtitle">4 May 2023</p>
@@ -11,14 +11,14 @@
             </div>
         </div>
         <div>
-            <div class="Specialised Container Reveal">
+            <div class="Specialised Reveal">
                 <br>
                 <text class="Title">Signups close</text>
                 <p class="Subtitle">17 May 2023</p>
             </div>
         </div>
         <div>
-            <div class="Specialised Container Reveal">
+            <div class="Specialised Reveal">
                 <br>
                 <text class="Title">Workshops</text>
                 <p class="Subtitle">19 June 2023</p>
@@ -26,7 +26,7 @@
             </div>
         </div>
         <div>
-            <div class="Specialised Container Reveal">
+            <div class="Specialised Reveal">
                 <br>
                 <text class="Title">Hackathon!</text>
                 <p class="Subtitle">20-23 June 2023</p>

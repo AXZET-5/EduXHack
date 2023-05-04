@@ -9,8 +9,6 @@
                 <a class="Subtitle" href="https://docs.google.com/forms/d/e/1FAIpQLSeg5M6X7YvTHgz2_iWL71TtV24U01zJvY69PMHj8paSTyrC2g/viewform" target="_blank">Start signing up here!</a>
                 <br><br>
             </div>
-            <div class="HorizontalLine"></div>
-            <div class="Another HorizontalLine"></div>
         </div>
         <div>
             <div class="Specialised Container Reveal">
@@ -18,8 +16,6 @@
                 <text class="Title">Signups close</text>
                 <p class="Subtitle">17 May 2023</p>
             </div>
-            <div class="HorizontalLine"></div>
-            <div class="Another HorizontalLine"></div>
         </div>
         <div>
             <div class="Specialised Container Reveal">
@@ -28,8 +24,6 @@
                 <p class="Subtitle">19 June 2023</p>
                 <p class="Subtitle"></p>
             </div>
-            <div class="HorizontalLine"></div>
-            <div class="Another HorizontalLine"></div>
         </div>
         <div>
             <div class="Specialised Container Reveal">
@@ -38,10 +32,11 @@
                 <p class="Subtitle">20-23 June 2023</p>
                 <p class="Subtitle"></p>
             </div>
-            <div class="HorizontalLine"></div>
-            <div class="Another HorizontalLine"></div>
         </div>
     </div>
+    <div class="HorizontalLine"></div>
+    <br>
+    <div class="Another HorizontalLine"></div>
     <br><br>
 </template>
 

@@ -52,8 +52,6 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
         margin-left: -100px !important;
         margin-right: -100px !important;
-        padding-left: 100px !important;
-        padding-right: 100px !important;
     }
 
     .HorizontalLine {

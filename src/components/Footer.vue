@@ -62,6 +62,12 @@
     margin-right: auto;
   }
 
+  @media only screen and (max-width: 500px) {
+    .ColumnFooter {
+      grid-template-columns: 1fr;
+    }
+  }
+
   .Affiliation {
     color: white;
     font-family: Segoe UI, -apple-system, sans-serif;

@@ -16,10 +16,6 @@
       <p class="Question">Do I need to be a student to attend?</p>
       <div class="LilBoxThingy">&nbsp</div>
       <p class="Answer">Yes. Only secondary school students from Singapore are eligible are eligible to attend.</p>
-      <br>
-      <p class="Question">Where is the event?</p>
-      <div class="LilBoxThingy">&nbsp</div>
-      <p class="Answer">The event is being hosted at TBC.</p>
     </div>
   </div>
 </template>

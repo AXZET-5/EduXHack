@@ -5,6 +5,7 @@
   import Signup from './components/Signup.vue'
   import Content from './components/Content.vue'
   import Timeline from './components/Timeline.vue'
+  import TimelineHorizontal from './components/TimelineHorizontal.vue'
   import FAQ from './components/FAQ.vue'
   import Footer from './components/Footer.vue'
 </script>
@@ -45,7 +46,8 @@
 
   <Separator id="faq"></Separator>
 
-  <Timeline></Timeline>
+  <Timeline class="Timeline"></Timeline>
+  <TimelineHorizontal class="TimelineHorizontal"></TimelineHorizontal>
 
   <FAQ></FAQ>
 
@@ -56,4 +58,20 @@
 </template>
 
 <style scoped>
+  .Timeline {
+    display: initial;
+  }
+
+  .TimelineHorizontal {
+    display: none;
+  }
+
+  @media only screen and (min-width: 1000px) {
+    .Timeline {
+      display: none;
+    }
+    .TimelineHorizontal {
+      display: initial;
+    }
+  }
 </style>

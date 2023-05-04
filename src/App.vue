@@ -46,8 +46,8 @@
 
   <Separator id="faq"></Separator>
 
-  <Timeline class="Timeline"></Timeline>
-  <TimelineHorizontal class="TimelineHorizontal"></TimelineHorizontal>
+  <Timeline></Timeline>
+  <TimelineHorizontal></TimelineHorizontal>
 
   <FAQ></FAQ>
 
@@ -58,20 +58,4 @@
 </template>
 
 <style scoped>
-  .Timeline {
-    display: initial;
-  }
-
-  .TimelineHorizontal {
-    display: none;
-  }
-
-  @media only screen and (min-width: 1000px) {
-    .Timeline {
-      display: none;
-    }
-    .TimelineHorizontal {
-      display: initial;
-    }
-  }
 </style>

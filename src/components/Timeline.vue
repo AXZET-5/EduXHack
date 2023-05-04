@@ -34,6 +34,12 @@
 </template>
 
 <style scoped>
+  @media only screen and (min-width: 1000px) {
+    * {
+      display: none;
+    }
+  }
+
   .TimelineGrid {
     display: grid;
     grid-template-columns: 3px 5px 3px min-content;

@@ -16,6 +16,12 @@
 </template>
 
 <style scoped>
+    @media only screen and (max-width: 1000px) {
+        * {
+        display: none;
+        }
+    }
+
     .TimelineGrid {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;

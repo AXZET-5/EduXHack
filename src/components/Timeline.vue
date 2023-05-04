@@ -63,5 +63,6 @@
     background-color: rgba(0,0,0,0);
     border: none;
     padding-right: 0px !important;
+    margin-right: 0px !important;
   }
 </style>

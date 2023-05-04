@@ -51,7 +51,7 @@ body::-webkit-scrollbar {
 
 .Reveal {
     position: relative;
-    transform: translateY(75px);
+    transform: translateY(50px);
     opacity: 0;
     transition: 0.8s all ease;
 }

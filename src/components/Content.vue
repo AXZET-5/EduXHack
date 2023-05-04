@@ -66,3 +66,55 @@
     Learn how to use the Flutter SDK to develop cool mobile applications!"></IAR>
   -->
 </template>
+
+<style>
+  .iLeft {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .AdImage {
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .InsideImage {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    display: none;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .AdImage {
+      display: none;
+    }
+    .InsideImage {
+      display: block;
+    }
+    .iLeft {
+      grid-template-columns: 1fr;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+
+  .iRight {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .iRight {
+      grid-template-columns: 1fr;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  }
+</style>

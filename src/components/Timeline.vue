@@ -15,7 +15,7 @@
       <div class="Specialised Container">
         <br>
         <text class="Title">Signups close</text>
-        <p class="Subtitle">31 May 2023</p>
+        <p class="Subtitle">17 May 2023</p>
       </div>
       <div class="Specialised Container">
         <br>

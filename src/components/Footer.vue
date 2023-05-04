@@ -17,7 +17,7 @@
     <div class="ColumnFooter">
       <div style="padding-right: 20px">
       <p class="Bold ColumnHeader">Email</p>
-      <a class="Content" target="_blank" href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=eduxhackhttpsociety@gmail.com">Gmail Compose</a>
+      <a class="Content" target="_blank" href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=eduxhackhttpsociety@gmail.com">admin@eduxhack.tech</a>
       </div>
       <div>
       <p class="Bold ColumnHeader">Instagram</p>

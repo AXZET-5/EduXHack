@@ -12,7 +12,37 @@
             <div class="HorizontalLine"></div>
             <div class="Another HorizontalLine"></div>
         </div>
+        <div>
+            <div class="Specialised Container Reveal">
+                <br>
+                <text class="Title">Signups close</text>
+                <p class="Subtitle">17 May 2023</p>
+            </div>
+            <div class="HorizontalLine"></div>
+            <div class="Another HorizontalLine"></div>
+        </div>
+        <div>
+            <div class="Specialised Container Reveal">
+                <br>
+                <text class="Title">Workshops</text>
+                <p class="Subtitle">19 June 2023</p>
+                <p class="Subtitle"></p>
+            </div>
+            <div class="HorizontalLine"></div>
+            <div class="Another HorizontalLine"></div>
+        </div>
+        <div>
+            <div class="Specialised Container Reveal">
+                <br>
+                <text class="Title">Hackathon!</text>
+                <p class="Subtitle">20-23 June 2023</p>
+                <p class="Subtitle"></p>
+            </div>
+            <div class="HorizontalLine"></div>
+            <div class="Another HorizontalLine"></div>
+        </div>
     </div>
+    <br><br>
 </template>
 
 <style scoped>

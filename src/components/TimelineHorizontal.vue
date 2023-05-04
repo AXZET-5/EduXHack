@@ -33,7 +33,7 @@
         </div>
     </div>
     <div class="HorizontalLine"></div>
-    <br>
+    <br style="font-size: 5px;">
     <div class="Another HorizontalLine"></div>
     <br><br>
 </template>

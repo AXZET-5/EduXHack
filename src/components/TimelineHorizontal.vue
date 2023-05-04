@@ -50,12 +50,20 @@
     .TimelineGrid {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-left: -100px !important;
+        margin-right: -100px !important;
+        padding-left: 100px !important;
+        padding-right: 100px !important;
     }
 
     .HorizontalLine {
         background-color: #3D7DF5;
         width: 100%;
         height: 3px;
+        margin-left: -100px !important;
+        margin-right: -100px !important;
+        padding-left: 100px !important;
+        padding-right: 100px !important;
     }
 
     .HorizontalLine.Another {

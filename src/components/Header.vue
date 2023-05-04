@@ -18,7 +18,7 @@
       <div>
         <p class="Center Title">EDUXHACK</p>
         <p class="Center Subtitle">EduXHack is a hackathon that aims to bring together students with diverse backgrounds and skill sets to brainstorm, design and develop innovative solutions to challenges in education</p>
-        <p class="Center Await">COMING THIS JUNE</p>
+        <a class="Center Await" href="https://docs.google.com/forms/d/e/1FAIpQLSeg5M6X7YvTHgz2_iWL71TtV24U01zJvY69PMHj8paSTyrC2g/viewform" target="_blank">SIGN UP HERE!</a>
       </div>
     </div>
   </div>

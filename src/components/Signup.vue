@@ -1,7 +1,7 @@
 <template>
   <div class="RegistrationParent">
     <a class="RegistrationChild BecomeBigger Reveal" href="https://docs.google.com/forms/d/e/1FAIpQLSeg5M6X7YvTHgz2_iWL71TtV24U01zJvY69PMHj8paSTyrC2g/viewform" target="_blank">
-      <p class="Center Title iRC1">APPLY</p>
+      <p class="Center Title iRC1">SIGNUP</p>
       <p class="Center Await iRC1">TO LEARN</p>
     </a>
     <a class="RegistrationChild RC2 BecomeBigger Reveal" href="https://smartoinker.github.io/eduxhack/documents/sponsorship.pdf" target="_blank">

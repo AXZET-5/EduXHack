@@ -5,7 +5,7 @@
       <div>
         <p class="Center BigTitle">EDUXHACK</p>
         <p class="Center Subtitle">EduXHack is a hackathon that aims to bring together students with diverse backgrounds and skill sets to brainstorm, design and develop innovative solutions to challenges in education</p>
-        <a class="Center Await" href="https://docs.google.com/forms/d/e/1FAIpQLSeg5M6X7YvTHgz2_iWL71TtV24U01zJvY69PMHj8paSTyrC2g/viewform" target="_blank">SIGN UP HERE!</a>
+        <a class="Centralised Await" href="https://docs.google.com/forms/d/e/1FAIpQLSeg5M6X7YvTHgz2_iWL71TtV24U01zJvY69PMHj8paSTyrC2g/viewform" target="_blank">SIGN UP HERE!</a>
       </div>
       <img class="Titleimage WithBorder" src="/src/images/EH.png">
     </div>
@@ -18,7 +18,7 @@
       <div>
         <p class="Center Title">EDUXHACK</p>
         <p class="Center Subtitle">EduXHack is a hackathon that aims to bring together students with diverse backgrounds and skill sets to brainstorm, design and develop innovative solutions to challenges in education</p>
-        <a class="Center Await" href="https://docs.google.com/forms/d/e/1FAIpQLSeg5M6X7YvTHgz2_iWL71TtV24U01zJvY69PMHj8paSTyrC2g/viewform" target="_blank">SIGN UP HERE!</a>
+        <a class="Centralised Await" href="https://docs.google.com/forms/d/e/1FAIpQLSeg5M6X7YvTHgz2_iWL71TtV24U01zJvY69PMHj8paSTyrC2g/viewform" target="_blank">SIGN UP HERE!</a>
       </div>
     </div>
   </div>
@@ -105,5 +105,10 @@
 
   .WithBorder {
     border: 3px solid white;
+  }
+
+  .Centralised {
+    margin-left: auto;
+    margin-right: auto;
   }
 </style>

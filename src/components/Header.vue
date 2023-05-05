@@ -2,7 +2,7 @@
   <div class="Reveal Container">
     <div class="Masthead">
       <div class="Banner">
-        <img class="Titleimage WithBorder" src="/src/images/IRS.png" />
+        <img class="Titleimage WithBorder" style="background-color: #e0e2e6" src="/src/images/IRS.png" />
         <p class="Center BigTitle">EDU<span class="Accent">X</span>HACK</p>
         <img class="Titleimage WithBorder" src="/src/images/EH.png" />
       </div>
@@ -68,6 +68,11 @@
   grid-template-columns: 1fr;
 }
 
+.Masthead .Subtitle, .Masthead-SM .Subtitle {
+margin: auto;
+margin-bottom: 4rem;
+  }
+
 @media only screen and (min-width: 900px) {
   .Masthead {
     display: block;
@@ -106,7 +111,8 @@
 }
 
 .Await {
-  font-size: 30px;
+  font-size: 64px;
+  font-weight: 700;
   letter-spacing: 3px;
   color: rgba(225, 242, 250, 1);
   margin-top: 2rem;

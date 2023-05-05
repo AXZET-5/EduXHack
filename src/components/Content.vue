@@ -38,7 +38,7 @@
 
   <div class="iRight Reveal">
     <div class="Container Reveal">
-      <img class="InsideImage" src="/src/images/Flutter.png">
+      <img class="FlutterInsideImage" src="/src/images/Flutter.png">
       <p class="Title">Mobile App Development</p>
       <p class="Subtitle">All code written with the Flutter SDK can be deployed anywhere: Windows, Macs, IOS, Android etc. <br>
     Learn how to use the Flutter SDK to develop cool mobile applications!</p>
@@ -88,11 +88,21 @@
     display: none;
   }
 
+  .FlutterInsideImage {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    display: none;
+  }
+
   @media only screen and (max-width: 1000px) {
     .AdImage {
       display: none;
     }
     .InsideImage {
+      display: block;
+    }
+    .FlutterInsideImage {
       display: block;
     }
     .iLeft {

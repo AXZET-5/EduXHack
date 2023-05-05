@@ -1,7 +1,7 @@
 <template>
   <div class="Container Opener Reveal">
     <div class="OpenerGrid" v-on:click="openSesame">
-      <p class="Title">Frequently Asked Questions</p>
+      <p class="Subtitle">Frequently Asked Questions</p>
       <img class="TinyIcon" src="/src/images/Open.svg" id="toFlip" />
     </div>
     <div id="toOpen">
@@ -31,10 +31,16 @@
   </div>
 </template>
 
-<style>
+<style scoped>
+.Container {
+  margin-block: 6rem;
+}
 .Opener {
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-inline: 7rem;
+}
+.Subtitle {
+  font-weight: 500;
+  margin-block: 0.25rem;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -54,6 +60,7 @@
 .OpenerGrid {
   display: grid;
   grid-template-columns: auto min-content;
+  border-bottom: 1.5px solid white;
 }
 
 .OpenerGrid:hover {
@@ -64,7 +71,7 @@
   margin-top: auto;
   margin-bottom: auto;
   margin-left: auto;
-  width: 50px;
+  width: 32px;
   filter: invert(1);
 }
 
@@ -105,11 +112,11 @@
 export default {
   methods: {
     openSesame() {
-      var toOpen = document.getElementById("toOpen");
-      var toFlip = document.getElementById("toFlip");
+      var toOpen = document.getElementById('toOpen');
+      var toFlip = document.getElementById('toFlip');
 
-      toOpen.classList.toggle("active");
-      toFlip.classList.toggle("active");
+      toOpen.classList.toggle('active');
+      toFlip.classList.toggle('active');
     },
   },
 };

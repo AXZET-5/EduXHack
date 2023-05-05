@@ -23,7 +23,7 @@
         applications with NodeJS, ExpressJS and Firebase.
       </p>
     </div>
-    <img class="AdImage" src="/src/images/Express.svg"/>
+    <img class="AdImage" src="/src/images/Express.svg" />
   </div>
 
   <div class="iLeft Reveal">
@@ -76,8 +76,13 @@
 <style>
 .iLeft {
   display: grid;
-  grid-template-columns: 1fr 4fr;
   grid-gap: 2rem;
+}
+.iLeft {
+  grid-template-columns: 1fr 4fr;
+}
+.iRight {
+  grid-template-columns: 4fr 1fr;
 }
 
 .AdImage {
@@ -90,7 +95,7 @@
 .InsideImage {
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: min(80%, 12rem);
   display: none;
 }
 
@@ -145,14 +150,14 @@
     margin-left: 10px;
     margin-right: 10px;
   }
-}
-
-.iRight {
-  margin-left: 100px;
-  margin-right: 100px;
-  display: grid;
-  grid-template-columns: 4fr 1fr;
-  grid-gap: 2rem;
+  .iLeft,
+  .iRight {
+    margin-top: 4rem;
+  }
+  .Title,
+  .Subtitle {
+    margin-left: 2rem;
+  }
 }
 
 @media only screen and (max-width: 1000px) {

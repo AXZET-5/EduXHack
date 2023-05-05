@@ -45,6 +45,7 @@
   .RegistrationChild {
     border-radius: 40px !important;
     margin: 20px !important;
+    text-align: center;
   }
 }
 

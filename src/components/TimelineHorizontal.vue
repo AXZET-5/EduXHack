@@ -32,9 +32,9 @@
             </div>
         </div>
     </div>
-    <div class="Another HorizontalLine"></div>
+    <div class="Another HorizontalLine Reveal"></div>
     <div style="height: 5px;"></div>
-    <div class="HorizontalLine"></div>
+    <div class="HorizontalLine Reveal"></div>
     <br><br>
 </template>
 

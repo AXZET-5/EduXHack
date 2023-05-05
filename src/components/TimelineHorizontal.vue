@@ -1,5 +1,6 @@
 <template>
     <p class="Center Title Reveal">General Timeline</p>
+    <div class="Whole">
     <div class="TimelineGrid">
         <div class="Specialised Reveal">
             <br>
@@ -31,6 +32,7 @@
     <div class="Another HorizontalLine Reveal"></div>
     <div style="height: 5px;"></div>
     <div class="HorizontalLine Reveal"></div>
+    </div>
     <br><br>
 </template>
 
@@ -82,5 +84,10 @@
         .Timelined {
             font-size: 25px;
         }
+    }
+
+    .Whole {
+        margin-left: 20px;
+        margin-right: 20px;
     }
 </style>

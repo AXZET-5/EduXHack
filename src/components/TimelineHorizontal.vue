@@ -79,4 +79,10 @@
     .Timelined {
         font-size: 30px;
     }
+
+    @media only screen and (max-width: 1250px) {
+        .Timelined {
+            font-size: 25px;
+        }
+    }
 </style>

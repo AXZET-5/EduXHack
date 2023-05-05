@@ -88,6 +88,12 @@
     display: none;
   }
 
+  @media only screen and (min-width: 600px) {
+    .InsideImage {
+      width: 60%;
+    }
+  }
+
   .FlutterInsideImage {
     margin-left: auto;
     margin-right: auto;

@@ -7,6 +7,8 @@
 
 <template>
 
+	<p class="Center Title Reveal">Available Workshops</p>
+
   <div class="iLeft Reveal">
     <img class="AdImage" src="/src/images/HCJO.png">
     <div class="Container Reveal">
@@ -45,7 +47,6 @@
   </div>
 
   <!--
-  <p class="Center Title Reveal">Available Workshops</p>
   <IA
     imgsrc="/src/images/HCJO.png"
     title="Fundamentals"

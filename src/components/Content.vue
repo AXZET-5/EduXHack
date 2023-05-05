@@ -70,8 +70,6 @@
 
 <style>
   .iLeft {
-    margin-left: 100px;
-    margin-right: 100px;
     display: grid;
     grid-template-columns: 1fr 2fr;
   }
@@ -105,8 +103,6 @@
   }
 
   .iRight {
-    margin-left: 100px;
-    margin-right: 100px;
     display: grid;
     grid-template-columns: 2fr 1fr;
   }

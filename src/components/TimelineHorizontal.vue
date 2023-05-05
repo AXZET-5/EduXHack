@@ -87,7 +87,7 @@
     }
 
     .Whole {
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
 </style>

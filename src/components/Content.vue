@@ -94,6 +94,18 @@
     }
   }
 
+  @media only screen and (min-width: 700px) {
+    .InsideImage {
+      width: 40%;
+    }
+  }
+
+  @media only screen and (min-width: 800px) {
+    .InsideImage {
+      width: 30%;
+    }
+  }
+
   .FlutterInsideImage {
     margin-left: auto;
     margin-right: auto;

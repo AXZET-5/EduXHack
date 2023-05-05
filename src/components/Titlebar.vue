@@ -13,9 +13,9 @@
     <br><br>
     <a class="MenuButton" href="#signup">Register</a>
     <br><br>
-    <a class="MenuButton" href="#content">Content</a>
+    <a class="MenuButton" href="#content">Workshops</a>
     <br><br>
-    <a class="MenuButton" href="#faq">FAQs</a>
+    <a class="MenuButton" href="#faq">Info</a>
   </div>
 </template>
 

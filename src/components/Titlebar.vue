@@ -15,7 +15,7 @@
     <br><br>
     <a class="MenuButton" href="#content">Workshops</a>
     <br><br>
-    <a class="MenuButton" href="#faq">Info</a>
+    <a class="MenuButton" href="#faq">Info & FAQs</a>
   </div>
 </template>
 

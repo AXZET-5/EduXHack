@@ -20,7 +20,7 @@
 
   <div class="Container Reveal">
     <p class="Center Title">About Us</p>
-    <p class="Center Subtitle">
+    <p class="Center Subtitle" style="margin-inline: auto;">
       The hackathon is open to all students from secondary schools regardless of
       their prior experience in coding. We have arranged several workshops to
       equip participants with the necessary skills to develop their ideas. We
@@ -33,6 +33,7 @@
 
 <style>
 .RegistrationParent {
+  margin-bottom: 5rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }

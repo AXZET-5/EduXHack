@@ -24,6 +24,9 @@
 </template>
 
 <style>
+.Titlebar .Title {
+  margin-top: 0;
+}
 .TitleBarAligner {
   height: 85px;
 }
@@ -94,8 +97,8 @@
 export default {
   methods: {
     toggleHamburger() {
-      var hamburgerMenu = document.getElementById("hamburgerMenu");
-      hamburgerMenu.classList.toggle("active");
+      var hamburgerMenu = document.getElementById('hamburgerMenu');
+      hamburgerMenu.classList.toggle('active');
     },
   },
 };

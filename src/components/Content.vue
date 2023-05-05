@@ -1,17 +1,10 @@
-<!--
-<script setup>
-  import IA from './IndivAd.vue'
-  import IAR from './IndivAdRight.vue'
-</script>
--->
-
 <template>
   <p class="Center Title Reveal">Available Workshops</p>
 
   <div class="iLeft Reveal">
-    <img class="AdImage" src="/src/images/HCJO.png" />
+    <img class="AdImage" src="/src/images/HCJO.svg" />
     <div class="Container Reveal">
-      <img class="InsideImage" src="/src/images/HCJO.png" />
+      <img class="InsideImage" src="/src/images/HCJO.svg" />
       <p class="Title">Fundamentals</p>
       <p class="Subtitle">
         We will be teaching HTML, CSS and JS to those without any prior
@@ -23,20 +16,20 @@
 
   <div class="iRight Reveal">
     <div class="Container Reveal">
-      <img class="InsideImage" src="/src/images/Express.png" />
+      <img class="InsideImage" src="/src/images/Express.svg" />
       <p class="Title">Backend development</p>
       <p class="Subtitle">
         Stay tuned for a crash course on managing the backend of your
         applications with NodeJS, ExpressJS and Firebase.
       </p>
     </div>
-    <img class="AdImage" src="/src/images/Express.png" />
+    <img class="AdImage" src="/src/images/Express.svg"/>
   </div>
 
   <div class="iLeft Reveal">
-    <img class="AdImage" src="/src/images/Vue.png" />
+    <img class="AdImage" src="/src/images/Vue.svg" />
     <div class="Container Reveal">
-      <img class="InsideImage" src="/src/images/Vue.png" />
+      <img class="InsideImage" src="/src/images/Vue.svg" />
       <p class="Title">Component-based</p>
       <p class="Subtitle">
         Harness the power of Vue.js to make coding your webpage efficient and
@@ -55,7 +48,7 @@
         Learn how to use the Flutter SDK to develop cool mobile applications!
       </p>
     </div>
-    <img class="AdImage" src="/src/images/Flutter.png" />
+    <img class="AdImage" src="/src/images/Flutter.svg" />
   </div>
 
   <!--
@@ -83,11 +76,12 @@
 <style>
 .iLeft {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 2rem;
 }
 
 .AdImage {
-  height: 300px;
+  height: 250px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -157,7 +151,8 @@
   margin-left: 100px;
   margin-right: 100px;
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 4fr 1fr;
+  grid-gap: 2rem;
 }
 
 @media only screen and (max-width: 1000px) {

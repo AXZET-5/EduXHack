@@ -92,6 +92,7 @@
 }
 
 .Title {
+  margin-top: 3rem;
   font-size: 35px;
   font-weight: 700;
   letter-spacing: 3px;
@@ -101,7 +102,6 @@
   font-size: 20px;
   line-height: 1.75rem;
   max-width: 85%;
-  margin-inline: auto;
   color: rgba(225, 242, 250, 1);
 }
 

@@ -54,6 +54,10 @@
   padding-inline: 50px !important;
 }
 
+.HorizontalLine.Another {
+  background-color: #3d7df5;
+}
+
 .Specialised {
   text-align: center;
   width: 100% !important;

@@ -1,9 +1,9 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from "vue";
+import App from "./App.vue";
 
-import './assets/one.css'
+import "./assets/one.css";
 
-createApp(App).mount('#app')
+createApp(App).mount("#app");
 
 function reveal() {
   var reveals = document.querySelectorAll(".Reveal");

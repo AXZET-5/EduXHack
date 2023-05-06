@@ -1,97 +1,105 @@
 <template>
   <div class="TitleBarAligner"></div>
-  <div class=Titlebar>
+  <div class="Titlebar">
     <div class="BarGrid">
       <text class="TB Title">EduXHack</text>
-      <img v-on:click="toggleHamburger" class="HamburgerIcon" src="/src/images/Hamburger.svg">
+      <img
+        v-on:click="toggleHamburger"
+        class="HamburgerIcon"
+        src="/src/images/Hamburger.svg"
+      />
     </div>
   </div>
 
   <div class="Menu" id="hamburgerMenu">
-    <br><br>
+    <br /><br />
     <a class="MenuButton" href="#top">Home</a>
-    <br><br>
+    <br /><br />
     <a class="MenuButton" href="#signup">Register</a>
-    <br><br>
+    <br /><br />
     <a class="MenuButton" href="#content">Workshops</a>
-    <br><br>
+    <br /><br />
     <a class="MenuButton" href="#faq">Info & FAQs</a>
   </div>
 </template>
 
 <style>
-  .TitleBarAligner {
-      height: 85px;
-  }
-  
-  .Titlebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #020914;
-    z-index: 999;
-    padding: 10px;
-    padding-left: 40px;
-    padding-right: 40px;
-    border-bottom: 3px solid white;
-    box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.5);
-  }
+.Titlebar .Title {
+  margin-top: 0;
+}
+.TitleBarAligner {
+  height: 85px;
+}
 
-  .TB {
-    color: white;
-    display: block;
-  }
+.Titlebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #020914aa;
+  backdrop-filter: blur(10px);
+  z-index: 999;
+  padding: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
+}
 
-  .BarGrid {
-    display: grid;
-    grid-template-columns: auto 100px;
-  }
+.TB {
+  color: white;
+  display: block;
+  font-family: "Bruno Ace SC", Rubik, sans-serif;
+}
 
-  .HamburgerIcon {
-    width: 40px;
-    filter: invert(100%);
-    margin-top: auto;
-    margin-bottom: auto;
-  }
+.BarGrid {
+  display: grid;
+  grid-template-columns: auto 100px;
+}
 
-  .HamburgerIcon:hover {
-    cursor: pointer;
-  }
+.HamburgerIcon {
+  width: 40px;
+  filter: invert(100%);
+  margin-top: auto;
+  margin-bottom: auto;
+}
 
-  .Menu{
-    position: fixed;
-    top: -320px;
-    right: 0px;
-    z-index: 998;
-    display: inline;
+.HamburgerIcon:hover {
+  cursor: pointer;
+}
 
-    background-color: #020914;
-    border-left: 3px solid white;
-    border-bottom: 3px solid white;
+.Menu {
+  position: fixed;
+  top: -320px;
+  right: 0px;
+  z-index: 998;
+  display: inline;
 
-    padding: 30px;
-    border-radius: 0px 0px 0px 20px;
-  }
+  background-color: #020914;
+  border-left: 3px solid white;
+  border-bottom: 3px solid white;
 
-  .Menu.active {
-    top: 20px;
-  }
+  padding: 30px;
+  border-radius: 0px 0px 0px 20px;
+}
 
-  .MenuButton {
-    text-decoration: none;
-    color: white;
-    font-size: 30px;
-  }
+.Menu.active {
+  top: 20px;
+}
+
+.MenuButton {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
 </style>
 
 <script>
-  export default {
-    methods: {
-      toggleHamburger() {
-        var hamburgerMenu = document.getElementById("hamburgerMenu")
-        hamburgerMenu.classList.toggle('active')
-      }
-    }
-  }
+export default {
+  methods: {
+    toggleHamburger() {
+      var hamburgerMenu = document.getElementById('hamburgerMenu');
+      hamburgerMenu.classList.toggle('active');
+    },
+  },
+};
 </script>

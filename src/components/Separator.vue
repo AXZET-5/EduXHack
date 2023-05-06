@@ -1,15 +1,14 @@
 <template>
   <div>
-    <br>
+    <br />
     <div class="Sep"></div>
-    <br>
+    <br />
   </div>
 </template>
 
 <style scoped>
-  .Sep {
-    background-color: rgb(255,255,255);
-    height: 3px;
-    width: 100%;
-  }
+.Sep {
+  height: 3px;
+  width: 100%;
+}
 </style>

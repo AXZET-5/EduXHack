@@ -175,9 +175,6 @@
   .RegistrationParent .Title {
     font-size: 20px !important;
   }
-  .ActnTitle {
-    font-size: 30px !important;
-  }
 }
 
 /* Registration action buttons */
@@ -234,6 +231,12 @@
   letter-spacing: 3px;
   color: rgba(225, 242, 250, 1);
   margin-block: 1.25rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .ActnTitle {
+    font-size: 30px !important;
+  }
 }
 
 .About {

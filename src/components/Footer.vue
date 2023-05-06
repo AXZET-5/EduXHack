@@ -3,7 +3,7 @@
 
     <div class="NormalFooter">
       <text class="Bold Affiliation">EduXHack</text>
-      <p class="Bold Content">Brought to you by HCIRS (Hwa Chong Infocomm & Robotics Society)</p>
+      <p class="Bold Content">Brought to you by students from HCIRS (Hwa Chong Infocomm & Robotics Society)</p>
   
       <br>
       

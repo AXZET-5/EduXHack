@@ -29,6 +29,7 @@
       </div>
     </div>
     <div class="HorizontalLine Reveal"></div>
+    <div class="Another HorizontalLine Reveal"></div>
   </div>
   <br /><br />
 </template>

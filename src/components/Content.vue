@@ -152,7 +152,7 @@
   }
   .iLeft,
   .iRight {
-    margin-top: 4rem;
+    margin-top: trem;
   }
   .Title,
   .Subtitle {

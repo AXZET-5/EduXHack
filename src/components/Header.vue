@@ -1,87 +1,112 @@
 <template>
   <div class="Reveal Container">
     <div class="Masthead">
-      <div class="Banner">
-        <img class="Titleimage WithBorder" style="background-color: #e0e2e6" src="/src/images/IRS.png" />
-        <p class="Center BigTitle">EDU<span class="Accent">X</span>HACK</p>
-        <img class="Titleimage WithBorder" src="/src/images/EH.png" />
-      </div>
-      <p class="Center Subtitle">
-        EduXHack is a hackathon that aims to bring together students with
-        diverse backgrounds and skill sets to brainstorm, design and develop
-        innovative solutions to challenges in education
-      </p>
-      <a
-        class="Center Await"
-        href="https://docs.google.com/forms/d/e/1FAIpQLSeg5M6X7YvTHgz2_iWL71TtV24U01zJvY69PMHj8paSTyrC2g/viewform"
-        target="_blank"
-        >SIGN UP HERE!</a
-      >
-    </div>
-
-    <div class="Masthead-SM">
-      <div class="Banner">
-        <div class="Imagegrid">
-          <img class="Titleimage2 WithBorder" src="/src/images/IRSw.png" />
-          <img class="Titleimage2 Cross" src="/src/images/x.svg" />
-          <img class="Titleimage2 WithBorder" src="/src/images/EH.png" />
-        </div>
-        <div>
-          <p class="Center Title">EDUXHACK</p>
-          <p class="Center Subtitle">
-            EduXHack is a hackathon that aims to bring together students with
-            diverse backgrounds and skill sets to brainstorm, design and develop
-            innovative solutions to challenges in education
+      <div class="MainTitle">
+        <div class="Banner">
+          <img class="Titleimage WithBorder" src="/src/images/EH.png" />
+          <p class="Center BigTitle Titlename">
+            EDU<span class="Accent">X</span>HACK
           </p>
-          <a
-            class="Center Await"
-            href="https://docs.google.com/forms/d/e/1FAIpQLSeg5M6X7YvTHgz2_iWL71TtV24U01zJvY69PMHj8paSTyrC2g/viewform"
-            target="_blank"
-            >SIGN UP HERE!</a
-          >
-          <br />
+        </div>
+        <p class="Center Subtitle">
+          EduXHack is a hackathon that aims to bring together students with
+          diverse backgrounds and skill sets to brainstorm, design and develop
+          innovative solutions to challenges in education
+        </p>
+      </div>
+
+      <div class="MainTitle-SM">
+        <div class="Banner">
+          <img class="Titleimage2 WithBorder" src="/src/images/EH.png" />
+          <div>
+            <p class="Center Title Titlename">
+              EDU<span class="Accent">X</span>HACK
+            </p>
+            <p class="Center Subtitle">
+              EduXHack is a hackathon that aims to bring together students with
+              diverse backgrounds and skill sets to brainstorm, design and
+              develop innovative solutions to challenges in education
+            </p>
+          </div>
         </div>
       </div>
+      <div class="RegistrationParent">
+        <a
+          class="RegistrationChild BecomeBigger Reveal"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSeg5M6X7YvTHgz2_iWL71TtV24U01zJvY69PMHj8paSTyrC2g/viewform"
+          target="_blank"
+        >
+          <p class="Center Title iRC1">SIGNUP</p>
+          <p class="Center ActnTitle iRC1">TO LEARN</p>
+        </a>
+        <a
+          class="RegistrationChild RC2 BecomeBigger Reveal"
+          href="https://smartoinker.github.io/eduxhack/documents/sponsorship.pdf"
+          target="_blank"
+        >
+          <p class="Center Title iRC2">SPONSOR</p>
+          <p class="Center ActnTitle iRC2">TO TRANSCEND</p>
+        </a>
+      </div>
     </div>
+  </div>
+  <div class="Container Reveal About">
+    <p class="Center Title">About Us</p>
+    <p class="Center Subtitle" style="margin-inline: auto">
+      The hackathon is open to all students from secondary schools regardless of
+      their prior experience in coding. We have arranged several workshops to
+      equip participants with the necessary skills to develop their ideas. We
+      believe that this event will create a platform for students to explore the
+      intersection between education and technology. See below for our exciting
+      workshops!
+    </p>
   </div>
 </template>
 
 <style>
-.Masthead {
+.MainTitle {
   display: none;
+  flex-direction: column;
+  align-content: center;
   margin-inline: 4rem;
-  margin-bottom: 4rem;
 }
-.Masthead .Banner {
-  margin-block: 4rem;
-  margin-bottom: 4rem;
-  display: grid;
-  grid-template-columns: max(10vw, 4rem) 1fr max(10vw, 4rem);
-  column-gap: 30px;
+.MainTitle .Banner {
+  margin: 4rem;
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
 }
 
-.Masthead-SM {
+.MainTitle-SM {
   display: block;
 }
-.Masthead-SM .Banner {
+.MainTitle-SM .Banner {
   display: grid;
   grid-template-columns: 1fr;
 }
 
-.Masthead .Subtitle, .Masthead-SM .Subtitle {
-margin: auto;
-margin-bottom: 4rem;
-  }
+.MainTitle .Subtitle,
+.MainTitle-SM .Subtitle {
+  margin: auto;
+  margin-bottom: 4rem;
+}
 
 @media only screen and (min-width: 900px) {
   .Masthead {
-    display: block;
+    height: 80vh;
   }
-  .Masthead-SM {
+  .MainTitle {
+    display: flex;
+  }
+  .MainTitle-SM {
     display: none;
   }
 }
 
+.Titlename {
+  font-family: "Bruno Ace SC", Rubik, sans-serif;
+  margin-block: 6rem;
+}
 .BigTitle {
   font-size: 64px;
   font-weight: 700;
@@ -89,18 +114,23 @@ margin-bottom: 4rem;
   font-family: "Bruno Ace SC", Rubik, sans-serif;
 }
 .BigTitle .Accent {
-  color: #3d7df5;
   font-size: 64px;
   font-weight: 700;
-  letter-spacing: 1rem;
+  color: #3d7df5;
   font-family: "Bruno Ace SC", Rubik, sans-serif;
 }
 
 .Title {
-  margin-top: 3rem;
+  margin-top: 2rem;
   font-size: 35px;
   font-weight: 700;
   letter-spacing: 3px;
+}
+.Title .Accent {
+  font-size: 35px;
+  font-weight: 700;
+  color: #3d7df5;
+  font-family: "Bruno Ace SC", Rubik, sans-serif;
 }
 
 .Subtitle {
@@ -110,17 +140,9 @@ margin-bottom: 4rem;
   color: rgba(225, 242, 250, 1);
 }
 
-.Await {
-  font-size: 64px;
-  font-weight: 700;
-  letter-spacing: 3px;
-  color: rgba(225, 242, 250, 1);
-  margin-top: 2rem;
-}
-
 .Titleimage {
   border-radius: 100%;
-  width: 100%;
+  width: 10rem;
   aspect-ratio: 1/1;
   object-fit: scale-down;
   margin-top: auto;
@@ -129,11 +151,93 @@ margin-bottom: 4rem;
 }
 
 .Titleimage2 {
-  border-radius: 10000px;
-  width: 80%;
-  max-width: 200px;
-  margin: auto;
+  border-radius: 6rem;
+  width: 12rem;
+  margin: 2rem auto;
   animation: pulse 3s infinite;
+}
+
+.RegistrationParent {
+  margin-bottom: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media only screen and (max-width: 800px) {
+  .RegistrationParent {
+    grid-template-columns: 1fr;
+  }
+  .RegistrationChild {
+    border-radius: 20px !important;
+    margin: 20px !important;
+    text-align: center;
+  }
+  .RegistrationParent .Title {
+    font-size: 20px !important;
+  }
+  .ActnTitle {
+    font-size: 30px !important;
+  }
+}
+
+/* Registration action buttons */
+
+.RegistrationChild {
+  background-color: #3d7df5;
+  margin: 20px;
+  margin-left: 50px;
+  margin-right: 25px;
+  text-decoration: none;
+  border-radius: 0px 40px 0px 40px;
+  border: 10px double white;
+  animation: pulse 3s infinite;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(0.98);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 1);
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 5px rgba(255, 255, 255, 0);
+  }
+
+  100% {
+    transform: scale(0.98);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+  }
+}
+
+.RC2 {
+  margin-left: 25px;
+  margin-right: 50px;
+  border-radius: 40px 0px 40px 0px;
+}
+.RegistrationChild {
+  transition: 0.8s background-color ease, 0.8s color ease, 0.8s scale ease !important;
+}
+.RegistrationChild:hover {
+  background-color: #a8c1f0;
+}
+.RegistrationChild:hover .iRC1,
+.RC2:hover .iRC2 {
+  color: #020914;
+}
+.RegistrationParent .Title {
+  font-weight: 800;
+  font-size: 32px;
+}
+.ActnTitle {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: rgba(225, 242, 250, 1);
+  margin-block: 1.25rem;
+}
+
+.About {
+  margin-top: 5rem;
 }
 
 .Cross {

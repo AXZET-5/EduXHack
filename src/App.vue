@@ -2,7 +2,6 @@
 import Titlebar from "./components/Titlebar.vue";
 import Header from "./components/Header.vue";
 import Separator from "./components/Separator.vue";
-import Signup from "./components/Signup.vue";
 import Content from "./components/Content.vue";
 import Timeline from "./components/Timeline.vue";
 import TimelineHorizontal from "./components/TimelineHorizontal.vue";
@@ -36,8 +35,6 @@ export default {
   <Header></Header>
 
   <Separator id="signup"></Separator>
-
-  <Signup></Signup>
 
   <Separator id="content"></Separator>
 

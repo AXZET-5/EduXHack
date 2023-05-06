@@ -1,5 +1,4 @@
 <template>
-  <p class="Center Title Reveal">General Timeline</p>
   <div class="Whole">
     <div class="TimelineGrid">
       <div class="Specialised Reveal">
@@ -29,8 +28,6 @@
         <text class="Subtitle">/\</text>
       </div>
     </div>
-    <div class="Another HorizontalLine Reveal"></div>
-    <div style="height: 5px"></div>
     <div class="HorizontalLine Reveal"></div>
   </div>
   <br /><br />
@@ -46,22 +43,14 @@
 .TimelineGrid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin-left: -100px !important;
-  margin-right: -100px !important;
 }
 
 .HorizontalLine {
-  background-color: #3d7df5;
-  width: 100%;
-  height: 3px;
-  margin-left: -100px !important;
-  margin-right: -100px !important;
-  padding-left: 100px !important;
-  padding-right: 100px !important;
-}
-
-.HorizontalLine.Another {
   background-color: white;
+  width: 100%;
+  height: 2px;
+  margin-inline: -50px !important;
+  padding-inline: 50px !important;
 }
 
 .Specialised {
@@ -70,12 +59,11 @@
   background-color: rgba(0, 0, 0, 0);
   border: none;
   margin-inline: 10px;
-
   margin-bottom: -20px;
 }
 
 .Timelined {
-  font-size: 30px;
+  font-size: 24px;
 }
 
 @media only screen and (max-width: 1250px) {

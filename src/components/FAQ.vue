@@ -1,7 +1,7 @@
 <template>
   <div class="Container Opener Reveal">
     <div class="OpenerGrid" v-on:click="openSesame">
-      <p class="Subtitle">Frequently Asked Questions</p>
+      <p class="Subtitle" style="height: 2rem;">Frequently Asked Questions</p>
       <img class="TinyIcon" src="/src/images/Open.svg" id="toFlip" />
     </div>
     <div id="toOpen">
@@ -34,9 +34,7 @@
 <style scoped>
 .Container {
   margin-block: 6rem;
-}
-.Opener {
-  padding-inline: 7rem;
+  border-bottom: 1.5px solid white;
 }
 .Subtitle {
   font-weight: 500;
@@ -60,7 +58,6 @@
 .OpenerGrid {
   display: grid;
   grid-template-columns: auto min-content;
-  border-bottom: 1.5px solid white;
 }
 
 .OpenerGrid:hover {
@@ -76,11 +73,13 @@
 }
 
 #toOpen {
-  display: none;
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.8s max-height ease;
 }
 
 #toOpen.active {
-  display: initial;
+  max-height: 40rem;
 }
 
 #toFlip {

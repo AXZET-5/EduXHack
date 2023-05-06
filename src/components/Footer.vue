@@ -57,24 +57,19 @@ u {
 }
 
 .Footer {
-  padding-top: 35px;
-  padding-bottom: 35px;
+  padding: 2rem 0;
   width: 100%;
   margin: 0;
 }
 
 .NormalFooter {
   width: 80%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .ColumnFooter {
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 80%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 @media only screen and (max-width: 500px) {

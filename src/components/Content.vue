@@ -6,8 +6,8 @@
       <img class="AdImage" src="/src/images/HCJO.svg" />
       <div class="Container Reveal">
         <img class="InsideImage" src="/src/images/HCJO.svg" />
-        <p class="Title">Fundamentals</p>
-        <p class="Subtitle">
+        <p class="Whatever Title">Fundamentals</p>
+        <p class="Whatever Subtitle">
           We will be teaching HTML, CSS and JS to those without any prior
           experience in coding. Interested participants may also attend a
           workshop on Vue, a modern and sleek website development tool.
@@ -18,8 +18,8 @@
     <div class="iRight Reveal">
       <div class="Container Reveal">
         <img class="InsideImage" src="/src/images/Express.svg" />
-        <p class="Title">Backend development</p>
-        <p class="Subtitle">
+        <p class="Whatever Title">Backend development</p>
+        <p class="Whatever Subtitle">
           Stay tuned for a crash course on managing the backend of your
           applications with NodeJS, ExpressJS and Firebase.
         </p>
@@ -31,8 +31,8 @@
       <img class="AdImage" src="/src/images/Vue.svg" />
       <div class="Container Reveal">
         <img class="InsideImage" src="/src/images/Vue.svg" />
-        <p class="Title">Component-based</p>
-        <p class="Subtitle">
+        <p class="Whatever Title">Component-based</p>
+        <p class="Whatever Subtitle">
           Harness the power of Vue.js to make coding your webpage efficient and
           elegant.
         </p>
@@ -42,8 +42,8 @@
     <div class="iRight Reveal">
       <div class="Container Reveal">
         <img class="InsideImage" src="/src/images/Flutter.svg" />
-        <p class="Title">Mobile App Development</p>
-        <p class="Subtitle">
+        <p class="Whatever Title">Mobile App Development</p>
+        <p class="Whatever Subtitle">
           All code written with the Flutter SDK can be deployed anywhere:
           Windows, Macs, IOS, Android etc. <br />
           Learn how to use the Flutter SDK to develop cool mobile applications!
@@ -129,6 +129,9 @@
       grid-template-columns: 1fr;
       margin-left: 10px;
       margin-right: 10px;
+    }
+    .Whatever {
+      text-align: center;
     }
   }
   .iLeft {

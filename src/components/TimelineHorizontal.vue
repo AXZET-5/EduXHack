@@ -64,6 +64,7 @@
 
 .Timelined {
   font-size: 24px;
+  letter-spacing: 0px;
 }
 
 @media only screen and (max-width: 1250px) {

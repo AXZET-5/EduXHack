@@ -137,6 +137,7 @@
     }
     .Whatever {
       text-align: center;
+      margin-left: none !important;
     }
   }
   .iLeft {

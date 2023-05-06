@@ -138,6 +138,7 @@
     .Whatever {
       text-align: center;
       margin-left: auto !important;
+      margin-right: auto !important;
     }
   }
   .iLeft {

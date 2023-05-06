@@ -6,6 +6,7 @@
     <div
       class="Another one of TheActualLine dont question :D and also Reveal lol"
     ></div>
+    <div></div>
     <div>
       <div class="Specialised Container Reveal">
         <br />
@@ -49,7 +50,7 @@
 
 .TimelineGrid {
   display: grid;
-  grid-template-columns: 3px 5px 3px min-content;
+  grid-template-columns: 3px 5px 3px 5px min-content;
   justify-content: center;
   margin-top: 20px;
   margin-bottom: 20px;

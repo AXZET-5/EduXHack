@@ -131,7 +131,7 @@
       margin-right: 10px;
     }
     .iRight {
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr !important;
       margin-left: 10px;
       margin-right: 10px;
     }

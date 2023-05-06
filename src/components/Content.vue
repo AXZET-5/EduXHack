@@ -41,7 +41,7 @@
 
     <div class="iRight Reveal">
       <div class="Container Reveal">
-        <img class="FlutterInsideImage" src="/src/images/Flutter.svg" />
+        <img class="InsideImage" src="/src/images/Flutter.svg" />
         <p class="Title">Mobile App Development</p>
         <p class="Subtitle">
           All code written with the Flutter SDK can be deployed anywhere:

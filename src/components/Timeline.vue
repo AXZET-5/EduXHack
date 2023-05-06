@@ -50,7 +50,7 @@
 
 .TimelineGrid {
   display: grid;
-  grid-template-columns: 3px 5px 3px 5px min-content;
+  grid-template-columns: 3px 5px 3px 15px min-content;
   justify-content: center;
   margin-top: 20px;
   margin-bottom: 20px;

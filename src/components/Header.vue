@@ -50,6 +50,7 @@
       </div>
     </div>
   </div>
+  <br>
   <div class="Container Reveal About">
     <p class="Center Title">About Us</p>
     <p class="Center Subtitle" style="margin-inline: auto">

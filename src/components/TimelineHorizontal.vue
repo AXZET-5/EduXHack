@@ -65,7 +65,7 @@
   background-color: rgba(0, 0, 0, 0);
   border: none;
   margin-inline: 10px;
-  margin-bottom: -20px;
+  margin-bottom: -25px;
 }
 
 .Timelined {

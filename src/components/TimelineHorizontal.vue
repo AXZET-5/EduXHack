@@ -17,7 +17,7 @@
         <br />
         <text class="Timelined Title">Workshops</text><br><br>
         <text class="Subtitle">19 June 2023</text><br><br>
-        <text class="Subtitle">/\</text>
+        <text class="Subtitle">▲</text>
         <p class="Subtitle"></p>
       </div>
       <div class="Specialised Reveal">

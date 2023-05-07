@@ -24,7 +24,13 @@ body {
   background-attachment: fixed;
   background-size: cover;
   overflow-x: hidden;
-  width: calc(vw-calc(10vw-3rem));
+}
+
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative;
 }
 
 body {

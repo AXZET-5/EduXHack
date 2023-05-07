@@ -43,6 +43,12 @@
   box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
+@media only screen and (max-width: 500px) {
+  .Titlebar {
+    display: none;
+  }
+}
+
 .TB {
   color: white;
   display: block;

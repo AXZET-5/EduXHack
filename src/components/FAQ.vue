@@ -5,6 +5,7 @@
       <img class="TinyIcon" src="/src/images/Open.svg" id="toFlip" />
     </div>
     <div id="toOpen">
+      <br>
       <p class="Question">What is a hackathon?</p>
       <div class="LilBoxThingy">&nbsp</div>
       <p class="Answer">

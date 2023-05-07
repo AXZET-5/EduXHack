@@ -80,7 +80,7 @@
 }
 
 #toOpen.active {
-  max-height: 40rem;
+  max-height: 45rem;
 }
 
 #toFlip {

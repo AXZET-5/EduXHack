@@ -24,7 +24,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   overflow-x: hidden;
-  width: vw;
+  width: calc(vw-calc(10vw-3rem));
 }
 
 body {

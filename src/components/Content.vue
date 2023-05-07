@@ -18,7 +18,7 @@
     <div class="iRight Reveal">
       <div class="Container Reveal">
         <img class="InsideImage" src="/src/images/Express.svg" />
-        <p class="Whatever Title">Backend development</p>
+        <p class="Whatever Title">Backend Development</p>
         <p class="Whatever Subtitle">
           Stay tuned for a crash course on managing the backend of your
           applications with NodeJS, ExpressJS and Firebase.
@@ -31,7 +31,7 @@
       <img class="AdImage" src="/src/images/Vue.svg" />
       <div class="Container Reveal">
         <img class="InsideImage" src="/src/images/Vue.svg" />
-        <p class="Whatever Title">Component-based</p>
+        <p class="Whatever Title">Component Framework</p>
         <p class="Whatever Subtitle">
           Harness the power of Vue.js to make coding your webpage efficient and
           elegant.

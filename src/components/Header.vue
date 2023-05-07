@@ -244,6 +244,12 @@
   margin-top: 11rem;
 }
 
+@media only screen and (max-width: 900px) {
+  .About {
+    margin-top: 5rem;
+  }
+}
+
 .Cross {
   filter: invert(1);
   animation: none;

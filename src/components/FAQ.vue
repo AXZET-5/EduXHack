@@ -1,7 +1,7 @@
 <template>
   <div class="Container Opener Reveal">
     <div class="OpenerGrid" v-on:click="openSesame">
-      <p class="Subtitle" style="height: 2rem;">Frequently Asked Questions</p>
+      <p class="Subtitle" style="height: 2rem;">Frequently Asked Qns</p>
       <img class="TinyIcon" src="/src/images/Open.svg" id="toFlip" />
     </div>
     <div id="toOpen">

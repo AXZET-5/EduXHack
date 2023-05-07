@@ -241,7 +241,7 @@
 }
 
 .About {
-  margin-top: 11rem;
+  margin-top: 13rem;
 }
 
 @media only screen and (max-width: 900px) {

@@ -5,13 +5,13 @@
         <br />
         <text class="Timelined Title">Signups&nbspopen!</text><br><br>
         <text class="Subtitle">4 May 2023</text><br><br>
-        <text class="Subtitle">/\</text>
+        <text class="Subtitle">▲</text>
       </div>
       <div class="Specialised Reveal">
         <br />
         <text class="Timelined Title">Signups close</text><br><br>
         <text class="Subtitle">17 May 2023</text><br><br>
-        <text class="Subtitle">/\</text>
+        <text class="Subtitle">▲</text>
       </div>
       <div class="Specialised Reveal">
         <br />
@@ -24,7 +24,7 @@
         <br />
         <text class="Timelined Title">Hackathon!</text><br><br>
         <text class="Subtitle">20-21 June 2023</text><br><br>
-        <text class="Subtitle">/\</text>
+        <text class="Subtitle">▲</text>
       </div>
     </div>
     <div class="HorizontalLine Reveal"></div>
@@ -64,7 +64,7 @@
   background-color: rgba(0, 0, 0, 0);
   border: none;
   margin-inline: 10px;
-  margin-bottom: -25px;
+  margin-bottom: -30px;
 }
 
 .Timelined {

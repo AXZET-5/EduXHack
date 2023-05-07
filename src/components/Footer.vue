@@ -62,6 +62,13 @@ u {
   margin: 0;
 }
 
+@media only screen and (max-width: 500px) {
+  .Footer{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
 .NormalFooter {
   width: 80%;
 }

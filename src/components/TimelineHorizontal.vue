@@ -23,7 +23,7 @@
       <div class="Specialised Reveal">
         <br />
         <text class="Timelined Title">Hackathon!</text>
-        <p class="Center Subtitle">20-23 June 2023</p>
+        <p class="Center Subtitle">20-21 June 2023</p>
         <p class="Subtitle"></p>
         <text class="Subtitle">/\</text>
       </div>

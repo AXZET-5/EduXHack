@@ -34,7 +34,8 @@
       <div class="Specialised Container Reveal">
         <br />
         <text class="Subtitle" style="color: white !important; font-size: 25px !important;">Hackathon!</text>
-        <p class="Subtitle">20-23 June 2023</p>
+        <p class="Subtitle">20 June 2023</p>
+        <p class="Subtitle">21 June 2023</p>
         <p class="Subtitle"></p>
       </div>
     </div>

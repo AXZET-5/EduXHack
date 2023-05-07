@@ -3,28 +3,26 @@
     <div class="TimelineGrid">
       <div class="Specialised Reveal">
         <br />
-        <text class="Timelined Title">Signups&nbspopen!</text>
-        <p class="Center Subtitle">4 May 2023</p>
+        <text class="Timelined Title">Signups&nbspopen!</text><br><br>
+        <text class="Center Subtitle">4 May 2023</text><br><br>
         <text class="Subtitle">/\</text>
       </div>
       <div class="Specialised Reveal">
         <br />
-        <text class="Timelined Title">Signups close</text>
-        <p class="Center Subtitle">17 May 2023</p>
+        <text class="Timelined Title">Signups close</text><br><br>
+        <text class="Center Subtitle">17 May 2023</text><br><br>
         <text class="Subtitle">/\</text>
       </div>
       <div class="Specialised Reveal">
         <br />
-        <text class="Timelined Title">Workshops</text>
-        <p class="Center Subtitle">19 June 2023</p>
+        <text class="Timelined Title">Workshops</text><br><br>
+        <text class="Center Subtitle">19 June 2023</text><br><br>
         <text class="Subtitle">/\</text>
-        <p class="Subtitle"></p>
       </div>
       <div class="Specialised Reveal">
         <br />
-        <text class="Timelined Title">Hackathon!</text>
-        <p class="Center Subtitle">20-21 June 2023</p>
-        <p class="Subtitle"></p>
+        <text class="Timelined Title">Hackathon!</text><br><br>
+        <text class="Center Subtitle">20-21 June 2023</text><br><br>
         <text class="Subtitle">/\</text>
       </div>
     </div>

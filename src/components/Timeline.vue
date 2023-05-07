@@ -10,30 +10,30 @@
     <div>
       <div class="Specialised Container Reveal">
         <br />
-        <text class="Subtitle" style="color: white !important;">Signups&nbspopen!</text>
+        <text class="Subtitle" style="color: white !important; font-size: 25px !important;">Signups&nbspopen!</text>
         <p class="Subtitle">4 May 2023</p>
         <a
           class="Subtitle"
           href="https://docs.google.com/forms/d/e/1FAIpQLSeg5M6X7YvTHgz2_iWL71TtV24U01zJvY69PMHj8paSTyrC2g/viewform"
           target="_blank"
-          >Start signing up here!</a
+          >Sign&nbspup&nbsphere!</a
         >
         <br /><br />
       </div>
       <div class="Specialised Container Reveal">
         <br />
-        <text class="Subtitle" style="color: white !important;">Signups close</text>
+        <text class="Subtitle" style="color: white !important; font-size: 25px !important;">Signups close</text>
         <p class="Subtitle">17 May 2023</p>
       </div>
       <div class="Specialised Container Reveal">
         <br />
-        <text class="Subtitle" style="color: white !important;">Workshops</text>
+        <text class="Subtitle" style="color: white !important; font-size: 25px !important;">Workshops</text>
         <p class="Subtitle">19 June 2023</p>
         <p class="Subtitle"></p>
       </div>
       <div class="Specialised Container Reveal">
         <br />
-        <text class="Subtitle" style="color: white !important;">Hackathon!</text>
+        <text class="Subtitle" style="color: white !important; font-size: 25px !important;">Hackathon!</text>
         <p class="Subtitle">20-23 June 2023</p>
         <p class="Subtitle"></p>
       </div>

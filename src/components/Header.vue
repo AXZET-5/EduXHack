@@ -148,14 +148,14 @@
   object-fit: scale-down;
   margin-top: auto;
   margin-bottom: auto;
-  animation: pulse 3s infinite;
+  animation: pulse 4s infinite;
 }
 
 .Titleimage2 {
   border-radius: 6rem;
   width: 12rem;
   margin: 2rem auto;
-  animation: pulse 3s infinite;
+  animation: pulse 4s infinite;
 }
 
 .RegistrationParent {
@@ -188,7 +188,7 @@
   text-decoration: none;
   border-radius: 0px 40px 0px 40px;
   border: 10px double white;
-  animation: pulse 3s infinite;
+  animation: pulse 4s infinite;
 }
 @keyframes pulse {
   0% {

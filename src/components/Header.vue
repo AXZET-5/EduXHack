@@ -241,7 +241,7 @@
 }
 
 .About {
-  margin-top: 8rem;
+  margin-top: 11rem;
 }
 
 .Cross {

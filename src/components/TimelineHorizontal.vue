@@ -24,7 +24,6 @@
         <br />
         <text class="Timelined Title">Hackathon!</text><br><br>
         <text class="Center Subtitle">20-21 June 2023</text><br><br>
-        <p class="Subtitle"></p>
         <text class="Subtitle">/\</text>
       </div>
     </div>

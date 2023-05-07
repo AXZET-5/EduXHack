@@ -15,9 +15,7 @@
     <br /><br />
     <a class="MenuButton" href="#top">Home</a>
     <br /><br />
-    <a class="MenuButton" href="#signup">Register</a>
-    <br /><br />
-    <a class="MenuButton" href="#content">Workshops</a>
+    <a class="MenuButton" href="#signup">Workshops</a>
     <br /><br />
     <a class="MenuButton" href="#faq">Info & FAQs</a>
   </div>
